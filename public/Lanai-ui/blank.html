@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <title>空白页</title>
+    <link href="dist/css/lanai-ui.css" rel="stylesheet" />
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+        <!-- Main Header -->
+        <header class="main-header">
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-mini"><b>L</b>AI</span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-lg"><b>Lanai</b>UI</span>
+            </a>
+            <!-- Header Navbar -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Sidebar toggle button-->
+                <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                </a>
+                <!-- Navbar Right Menu -->
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown notifications-menu">
+                            <!-- Menu toggle button -->
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-bell-o"></i>
+                                	提醒
+                                <span class="label label-warning">1</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="header">警示信息 </li>
+                                <li>
+                                    <!-- Inner Menu: contains the notifications -->
+                                    <ul class="menu">
+                                        <li>
+                                            <!-- start notification -->
+                                            <a href="#">
+                                                <i class="fa fa-users text-aqua"></i> 信息内容
+                                            </a>
+                                        </li>
+                                        <!-- end notification -->
+                                    </ul>
+                                </li>
+                                <li class="footer"><a href="#">查看</a></li>
+                            </ul>
+                        </li>                        	
+                        <!-- User Account Menu -->
+                        <li class="user user-menu">
+                            <!-- Menu Toggle Button -->
+                            <a href="#" >
+                                <!-- The user image in the navbar-->
+                                <img src="dist/img/sl.jpg" class="user-image" alt="User Image" />
+                                <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                                <span class="hidden-xs">User1</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Left side column. contains the logo and sidebar -->
+        <aside class="main-sidebar">
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+                <!-- Sidebar Menu -->
+                <ul class="sidebar-menu" data-widget="tree">
+                   <li class="treeview active">
+                        <a href="#">
+                            <i class="fa fa-folder"></i> <span>页面</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="#" data-addtab="#" data-target="#MasterTabs" data-title="个人简介" data-url="#"><i class="fa fa-circle-o"></i> 页面一 </a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i> 页面二 </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- /.sidebar-menu -->
+
+                <div class="sidebar-footer hidden-small fadeInLeft animated">
+                    <a data-toggle="tooltip" data-placement="top" data-original-title="refresh" data-widget="tooltip-refresh">
+                        <span class="fa fa-refresh" aria-hidden="true"></span>
+                    </a>
+                    <a id="fullscreen" data-toggle="tooltip" data-placement="top" title="" data-original-title="FullScreen" data-widget="tooltip-fullscreen">
+                        <span class="fa fa-arrows-alt" aria-hidden="true"></span>
+                    </a>
+                    <a id="lockpage" data-toggle="tooltip" data-placement="top" title="" data-original-title="Lock" data-widget="tooltip-lock">
+                        <span class="fa fa-eye-slash" aria-hidden="true"></span>
+                    </a>
+                    <a data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="Logout">
+                        <span class="fa fa-power-off" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Main content -->
+            <section class="content container-fluid" style="padding:0px">
+                <ul class="nav nav-tabs menu-tabs" id="MasterTabs" role="tablist">
+                    <li class="nav-tabs-header active" role="presentation">
+                        <a aria-controls="home" data-toggle="tab" href="#home" role="tab">
+                            <i class="fa fa-home"></i> Home
+                        </a>
+                    </li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content fixheight">
+                	<div class="tab-pane active" id="home" role="tabpanel">
+                	</div>
+                </div>
+            </section>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <!-- To the right -->
+            <div class="pull-right hidden-xs">
+                <b>Version</b> 1.0.0.1
+            </div>
+            <!-- Default to the left -->
+            <strong>Copyright © 2017-2018 .</strong> All rights reserved.
+        </footer>
+		<!--Small Chat-->	
+        <div class="box small-chat-box direct-chat direct-chat-primary  fadeInRight animated" data-widget="chat-small-box">
+            <div class="box-header with-border">
+                <h3 class="box-title" id="chatTitle">LAI聊</h3>
+                <div class="box-tools pull-right">
+                    <button type="button" id="btn_showContacts" class="btn btn-box-tool" data-toggle="tooltip" title="" data-widget="chat-pane-toggle" data-original-title="Contacts">
+                        <i class="fa fa-comments"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body" id="chatBody">
+                <!-- Conversations are loaded here -->
+                <div class="direct-chat-messages" id="listmsg">
+                    <div class="direct-chat-msg">
+                        <div class="direct-chat-info clearfix">
+                            <span class="direct-chat-name pull-left">索隆</span>
+                            <span class="direct-chat-timestamp pull-right">18/02/05 6:00am</span>
+                        </div>
+                        <!-- /.direct-chat-info -->
+                        <img class="direct-chat-img" src="dist/img/sl.jpg" alt="Message User Image"><!-- /.direct-chat-img -->
+                        <div class="direct-chat-text">
+                            	早上好
+                        </div>
+                        <!-- /.direct-chat-text -->
+                    </div>
+                    <!-- /.direct-chat-msg -->
+                    <!-- Message to the right -->
+                    <div class="direct-chat-msg right">
+                        <div class="direct-chat-info clearfix">
+                            <span class="direct-chat-name pull-right">娜美</span>
+                            <span class="direct-chat-timestamp pull-left">18/02/05 7:00am</span>
+                        </div>
+                        <!-- /.direct-chat-info -->
+                        <img class="direct-chat-img" src="dist/img/nm.jpg" alt="Message User Image"><!-- /.direct-chat-img -->
+                        <div class="direct-chat-text">
+                            	早上好!
+                        </div>
+                        <!-- /.direct-chat-text -->
+                    </div>
+                </div>
+                <!--/.direct-chat-messages-->
+                <!-- Contacts are loaded here -->
+                <div class="direct-chat-contacts">
+                    <ul class="contacts-list">
+                        <li>
+                            <a href="javascript:;" data-widget="chat-pane-toggle">
+                                <img src="dist/img/nm.jpg" class="contacts-list-img" />
+                                <div class="contacts-list-info">
+                                    <span class="contacts-list-name">
+                                        Polo
+                                        <small class="contacts-list-date pull-right"><i class="fa fa-circle text-danger"></i> 离线</small>
+                                    </span>
+                                    <span class="contacts-list-msg">娜美@gmail.com</span>
+                                </div>
+                                <!-- /.contacts-list-info -->
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.contatcts-list -->
+                </div>
+                <!-- /.direct-chat-pane -->
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer">
+                <form action="#" method="post">
+                    <div class="input-group">
+                        <input type="text" id="message" name="message" placeholder="输入信息 ..." class="form-control">
+                        <span class="input-group-btn">
+                            <button type="button" id="sendmessage" class="btn btn-primary btn-flat">发送</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <!-- /.box-footer-->
+        </div>
+        <div class="chat-area">
+            <span class="badge badge-warning pull-right msgCount">2</span>
+            <a class="open-small-chat" data-widget="chat-small-open">
+                <i class="fa fa-comments"></i>
+            </a>
+        </div>
+        <!-- /. Chat-Area-->
+    </div>
+
+    <!-- ./wrapper -->
+    <div id="modal" class="hold-transition lockscreen" style="display:none">
+        <div class="lockscreen-wrapper">
+            <div class="lockscreen-logo">
+                <a href="#"><b>Lanai</b>UI</a>
+            </div>
+            <div class="lockscreen-name">索隆</div>
+            <div class="lockscreen-item">
+                <div class="lockscreen-image">
+                    <img src="dist/img/sl.jpg" />
+                </div>
+                <form class="lockscreen-credentials">
+                    <div class="input-group">
+                        <input id="tbx_lock_password" type="password" class="form-control" placeholder="password" value="">
+
+                        <div class="input-group-btn">
+                            <button type="button" class="btn" data-widget="tooltip-unlock" data-placement="top" title=""><i class="fa fa-arrow-right text-muted"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="help-block text-center">
+                输入密码解除锁定
+            </div>
+            <div class="lockscreen-footer text-center">
+                Copyright &copy; 2017-2018
+                All rights reserved
+            </div>
+        </div>
+    </div>
+    <!-- ./ 锁定屏幕 -->
+    <script src="dist/js/jquery.min.js"></script>
+    <script src="dist/js/lanai-ui.js"></script>
+    <script type="text/javascript">
+    	$(function(){
+    		console.log('欢迎使用AdminGTL,此版本仅供个人学习和研究用,商业用途请购买，谢谢')
+    	})
+    </script>
+</body>
+</html>
